@@ -16,7 +16,9 @@ header {
     position: fixed;
     top: 0;
     left: 14.5%;
-    border-bottom: #2eca5d solid 1px;
+    border-bottom: #2eca5d solid 1px; 
+    border-right: #2eca5d solid 2px; 
+    border-left: #2eca5d solid 1px;
     z-index: 300;
 }
 
@@ -42,7 +44,7 @@ header {
     width: 100%;
     font-size: 11px;
     position: relative;
-    transition: 0.3s ease-in color;
+    transition: 0.5s ease-in;
 }
 
 .link > div a {
@@ -53,7 +55,7 @@ header {
 
 .link > div:hover {
     color: #2eca5d;
-
+    background: #626262;
 }
 
 .link > div::before {
