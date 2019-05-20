@@ -1,4 +1,4 @@
-body {
+.body {
     background: linear-gradient(to bottom right, #50a3a2 0%, #2eca7f 100%);
     background-repeat: no-repeat;
     padding:0;
@@ -742,7 +742,7 @@ a {
 }
 
 @media only screen and (min-width:1040px){
-    body {
+    .body {
         overflow: hidden;
         font-family: 'Poppins';
         font-size: 14px;
