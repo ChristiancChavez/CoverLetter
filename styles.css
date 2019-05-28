@@ -458,12 +458,13 @@ a {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    transition: 1s;
+    transition: 1s ease;
     border: none;
     font-size: 17px;
     margin: 0 auto;
     border: rgba(180, 175, 175, 0.658) solid 1px;
     border-radius: 8px;
+    cursor: pointer;
 }
 .hire:hover {
     color: #fff;
